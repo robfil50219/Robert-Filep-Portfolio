@@ -150,37 +150,13 @@ nav {
     transform: scale(0.95); 
 }
 
-@media (max-width: 600px) {
-    body {
-        font-size: 16px; 
+@media (min-width: 600px) {
+    #projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
-
-    h1 {
-        font-size: 24px; 
-    }
-
-    h2, h3 {
-        font-size: 20px; 
-    }
-
-    .about-me-pic {
-        width: 250px; 
-        height: 250px;
-    }
-
-    #about-me p, #contact p {
-        font-size: 18px; 
-        padding: 0 10px; 
-    }
-
-    #projects, .project-card {
-        width: 100%;
-        display: block; 
-    }
-
-    nav button, .button {
-        padding: 0.5rem; 
-        font-size: 14px; 
-        margin: 0.1rem; 
+    .project-card {
+        width: 20%; 
     }
 }
