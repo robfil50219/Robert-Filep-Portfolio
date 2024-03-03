@@ -73,6 +73,7 @@ a {
     text-decoration: none;
     border-radius: 5px;
 }
+
 #about-me {
     text-align: center; 
     padding: 2rem; 
@@ -130,18 +131,19 @@ a {
 
 .contact-link {
     display: inline-block;
-    background-color: lightseagreen;
+    background-color: lightseagreen; 
     color: white;
     padding: 0.5rem 1rem;
     margin: 0.25rem;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; 
 }
 
 .contact-link:hover, .contact-link:focus {
-    background-color: lightseagreen;
+    background-color: #198984; 
 }
+
 
 nav {
     padding: 1rem;
@@ -149,7 +151,7 @@ nav {
 }
 
 nav button {
-    background-color: #007bff; 
+    background-color: lightseagreen; 
     color: white;
     border: none;
     padding: 0.5rem 1rem; 
@@ -161,7 +163,7 @@ nav button {
 }
 
 nav button:hover, nav button:focus {
-    background-color: #0056b3; 
+    background-color: #198984; 
     transform: scale(1.05); 
     outline: none; 
 }
