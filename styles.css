@@ -158,5 +158,6 @@ nav {
     }
     .project-card {
         width: 20%; 
+        display: block;
     }
 }
