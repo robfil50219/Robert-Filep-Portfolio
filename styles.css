@@ -64,15 +64,6 @@ border-color: lightseagreen;
     border-radius: 8px;
 }
 
-a {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
 
 #about-me {
     text-align: center; 
@@ -129,46 +120,33 @@ a {
     margin-bottom: 1.5rem;
 }
 
-.contact-link {
-    display: inline-block;
-    background-color: lightseagreen; 
-    color: white;
-    padding: 0.5rem 1rem;
-    margin: 0.25rem;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease; 
-}
-
-.contact-link:hover, .contact-link:focus {
-    background-color: #198984; 
-}
-
-
 nav {
     padding: 1rem;
     text-align: center; 
 }
 
-nav button {
+
+.button {
+    display: inline-block;
     background-color: lightseagreen; 
     color: white;
     border: none;
     padding: 0.5rem 1rem; 
-    margin: 0 0.5rem; 
+    margin: 0.25rem; 
     border-radius: 5px; 
-    cursor: pointer; 
+    text-decoration: none; 
     font-size: 1rem; 
-    transition: background-color 0.3s, transform 0.2s; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s; 
 }
 
-nav button:hover, nav button:focus {
-    background-color: #198984; 
+.button:hover, .button:focus {
+    background-color: #166e69; 
     transform: scale(1.05); 
     outline: none; 
 }
 
-nav button:active {
+.button:active {
     transform: scale(0.95); 
 }
 
